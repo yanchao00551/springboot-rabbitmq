@@ -1,0 +1,6 @@
+cn\smbms\common\aspect\UserServiceLogger.class
+cn\smbms\service\UserServiceImpl.class
+cn\smbms\service\UserService.class
+cn\smbms\pojo\User.class
+cn\smbms\dao\user\UserMapper.class
+cn\smbms\web\HelloSpring.class

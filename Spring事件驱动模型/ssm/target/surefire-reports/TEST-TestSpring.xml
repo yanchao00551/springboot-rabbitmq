@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSpring" time="8.35" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\IdeaProjects\ssm\target\test-classes;D:\IdeaProjects\ssm\target\classes;D:\.m2\junit\junit\4.11\junit-4.11.jar;D:\.m2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\.m2\org\springframework\spring-test\4.2.6.RELEASE\spring-test-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-webmvc\4.2.6.RELEASE\spring-webmvc-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-beans\4.2.6.RELEASE\spring-beans-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-expression\4.2.6.RELEASE\spring-expression-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-web\4.2.6.RELEASE\spring-web-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-core\4.2.6.RELEASE\spring-core-4.2.6.RELEASE.jar;D:\.m2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\.m2\org\springframework\spring-aop\4.2.6.RELEASE\spring-aop-4.2.6.RELEASE.jar;D:\.m2\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\.m2\org\springframework\spring-jms\4.2.6.RELEASE\spring-jms-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-messaging\4.2.6.RELEASE\spring-messaging-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-tx\4.2.6.RELEASE\spring-tx-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-jdbc\4.2.6.RELEASE\spring-jdbc-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-context\4.2.6.RELEASE\spring-context-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-context-support\4.2.6.RELEASE\spring-context-support-4.2.6.RELEASE.jar;D:\.m2\org\aspectj\aspectjweaver\1.7.4\aspectjweaver-1.7.4.jar;D:\.m2\org\aspectj\aspectjrt\1.5.4\aspectjrt-1.5.4.jar;D:\.m2\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\.m2\org\mybatis\mybatis-spring\1.3.0\mybatis-spring-1.3.0.jar;D:\.m2\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;D:\.m2\com\alibaba\druid\1.0.18\druid-1.0.18.jar;D:\Program Files\Java\jdk1.8.0_241\jre\..\lib\jconsole.jar;D:\Program Files\Java\jdk1.8.0_241\jre\..\lib\tools.jar;D:\.m2\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\10947\AppData\Local\Temp\surefire3526278077707908382\surefirebooter6337681967508128631.jar C:\Users\10947\AppData\Local\Temp\surefire3526278077707908382 2020-09-27T00-55-22_576-jvmRun1 surefire8699239153156628534tmp surefire_03275576407154650549tmp"/>
+    <property name="surefire.test.class.path" value="D:\IdeaProjects\ssm\target\test-classes;D:\IdeaProjects\ssm\target\classes;D:\.m2\junit\junit\4.11\junit-4.11.jar;D:\.m2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\.m2\org\springframework\spring-test\4.2.6.RELEASE\spring-test-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-webmvc\4.2.6.RELEASE\spring-webmvc-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-beans\4.2.6.RELEASE\spring-beans-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-expression\4.2.6.RELEASE\spring-expression-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-web\4.2.6.RELEASE\spring-web-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-core\4.2.6.RELEASE\spring-core-4.2.6.RELEASE.jar;D:\.m2\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\.m2\org\springframework\spring-aop\4.2.6.RELEASE\spring-aop-4.2.6.RELEASE.jar;D:\.m2\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\.m2\org\springframework\spring-jms\4.2.6.RELEASE\spring-jms-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-messaging\4.2.6.RELEASE\spring-messaging-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-tx\4.2.6.RELEASE\spring-tx-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-jdbc\4.2.6.RELEASE\spring-jdbc-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-context\4.2.6.RELEASE\spring-context-4.2.6.RELEASE.jar;D:\.m2\org\springframework\spring-context-support\4.2.6.RELEASE\spring-context-support-4.2.6.RELEASE.jar;D:\.m2\org\aspectj\aspectjweaver\1.7.4\aspectjweaver-1.7.4.jar;D:\.m2\org\aspectj\aspectjrt\1.5.4\aspectjrt-1.5.4.jar;D:\.m2\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\.m2\org\mybatis\mybatis-spring\1.3.0\mybatis-spring-1.3.0.jar;D:\.m2\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;D:\.m2\com\alibaba\druid\1.0.18\druid-1.0.18.jar;D:\Program Files\Java\jdk1.8.0_241\jre\..\lib\jconsole.jar;D:\Program Files\Java\jdk1.8.0_241\jre\..\lib\tools.jar;D:\.m2\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\10947"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="D:\IdeaProjects\ssm"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\10947\AppData\Local\Temp\surefire3526278077707908382\surefirebooter6337681967508128631.jar"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="10947"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\.m2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\10947\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.3.6"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="D:\IdeaProjects\ssm"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Java\jdk1.8.0_251\bin;D:\Program Files\Java\jdk1.8.0_241\bin;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Users\10947\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\bin;;C:\Users\10947\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\.m2\"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testTrans" classname="TestSpring" time="0.965"/>
+  <testcase name="test1" classname="TestSpring" time="0.033"/>
+  <testcase name="test2" classname="TestSpring" time="0.045"/>
+  <testcase name="test3" classname="TestSpring" time="0.033"/>
+  <testcase name="test4" classname="TestSpring" time="0.036"/>
+</testsuite>
